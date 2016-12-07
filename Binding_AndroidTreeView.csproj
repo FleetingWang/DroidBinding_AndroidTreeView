@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E32F54F-26A5-406E-BE8A-B9916EC9C3A1}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Binding_AndroidTreeView</RootNamespace>
+    <AssemblyName>Binding_AndroidTreeView</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <Java8DocPaths>JavaDocs</Java8DocPaths>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="AndroidTreeView-1.2.9.aar" />
+    <None Include="JavaDocs\package-list" />
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaDocs\allclasses-frame.html" />
+    <Content Include="JavaDocs\allclasses-noframe.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\holder\package-frame.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\holder\package-summary.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\holder\SimpleViewHolder.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\model\package-frame.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\model\package-summary.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\model\TreeNode.BaseNodeViewHolder.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\model\TreeNode.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\model\TreeNode.TreeNodeClickListener.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\model\TreeNode.TreeNodeLongClickListener.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\view\AndroidTreeView.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\view\package-frame.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\view\package-summary.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\view\TreeNodeWrapperView.html" />
+    <Content Include="JavaDocs\com\unnamed\b\atv\view\TwoDScrollView.html" />
+    <Content Include="JavaDocs\constant-values.html" />
+    <Content Include="JavaDocs\deprecated-list.html" />
+    <Content Include="JavaDocs\help-doc.html" />
+    <Content Include="JavaDocs\index.html" />
+    <Content Include="JavaDocs\overview-frame.html" />
+    <Content Include="JavaDocs\overview-summary.html" />
+    <Content Include="JavaDocs\script.js" />
+    <Content Include="JavaDocs\stylesheet.css" />
+    <Content Include="GeneratedBindingInfo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

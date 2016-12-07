@@ -1,0 +1,9 @@
+Binding for:
+com.github.bmelnychuk:atv:1.2.+
+
+Dependencies:
+
+atv-1.2.9.aar,    Path=C:\Users\wtffl\.gradle\caches\modules-2\files-2.1\com.github.bmelnychuk\atv\1.2.9\63dbea66501343196e5938f28e34a887281851ca\atv-1.2.9.aar
+	appcompat-v7-21.0.3.aar,    Path=D:\android-sdk\extras\android\m2repository\com\android\support\appcompat-v7\21.0.3\appcompat-v7-21.0.3.aar
+	support-annotations-21.0.3.jar,    Path=D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar
+	support-v4-21.0.3.aar,    Path=D:\android-sdk\extras\android\m2repository\com\android\support\support-v4\21.0.3\support-v4-21.0.3.aar

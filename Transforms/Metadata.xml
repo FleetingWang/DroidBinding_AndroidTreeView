@@ -1,0 +1,29 @@
+<metadata>
+  <!-- namespaces -->
+  <attr path="/api/package[@name='com.unnamed.b.atv']" name="managedName">AndroidTreeView</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.holder']" name="managedName">AndroidTreeView.Holder</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.model']" name="managedName">AndroidTreeView.Model</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']" name="managedName">AndroidTreeView.View</attr>
+
+  <!-- constructor params -->
+  <attr path="/api/package[@name='com.unnamed.b.atv.holder']/class[@name='SimpleViewHolder']/constructor[@name='SimpleViewHolder' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.model']/class[@name='TreeNode.BaseNodeViewHolder']/constructor[@name='TreeNode.BaseNodeViewHolder' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.model']/class[@name='TreeNode']/constructor[@name='TreeNode' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='AndroidTreeView']/constructor[@name='AndroidTreeView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.unnamed.b.atv.model.TreeNode']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='AndroidTreeView']/constructor[@name='AndroidTreeView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.unnamed.b.atv.model.TreeNode']]/parameter[2]" name="managedName">root</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='AndroidTreeView']/constructor[@name='AndroidTreeView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TreeNodeWrapperView']/constructor[@name='TreeNodeWrapperView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='int']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TreeNodeWrapperView']/constructor[@name='TreeNodeWrapperView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='int']]/parameter[2]" name="managedName">containerStyle</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TwoDScrollView']/constructor[@name='TwoDScrollView' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TwoDScrollView']/constructor[@name='TwoDScrollView' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[2]" name="managedName">attrs</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TwoDScrollView']/constructor[@name='TwoDScrollView' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[3]" name="managedName">defStyle</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TwoDScrollView']/constructor[@name='TwoDScrollView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]/parameter[1]" name="managedName">context</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TwoDScrollView']/constructor[@name='TwoDScrollView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]/parameter[2]" name="managedName">attrs</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='TwoDScrollView']/constructor[@name='TwoDScrollView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[1]" name="managedName">context</attr>
+
+  <!-- method params -->
+  <attr path="/api/package[@name='com.unnamed.b.atv.model']/class[@name='TreeNode']/method[@name='addChildren' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;com.unnamed.b.atv.model.TreeNode&gt;']]/parameter[1]" name="managedName">nodes</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='AndroidTreeView']/method[@name='getSelectedValues' and count(parameter)=1 and parameter[1][@type='java.lang.Class&lt;E&gt;']]/parameter[1]" name="managedName">clazz</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']/class[@name='AndroidTreeView']/method[@name='setDefaultViewHolder' and count(parameter)=1 and parameter[1][@type='java.lang.Class&lt;? extends com.unnamed.b.atv.model.TreeNode.BaseNodeViewHolder&gt;']]/parameter[1]" name="managedName">viewHolder</attr>
+
+</metadata>
