@@ -302,6 +302,18 @@ namespace Binding_AndroidTreeView_Sample
 			// aapt resource value: 0x7f010009
 			public const int icon = 2130771977;
 			
+			// aapt resource value: 0x7f0100aa
+			public const int iconColor = 2130772138;
+			
+			// aapt resource value: 0x7f0100ac
+			public const int iconFont = 2130772140;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int iconSize = 2130772139;
+			
+			// aapt resource value: 0x7f0100a9
+			public const int iconText = 2130772137;
+			
 			// aapt resource value: 0x7f010033
 			public const int iconifiedByDefault = 2130772019;
 			
@@ -613,29 +625,29 @@ namespace Binding_AndroidTreeView_Sample
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060031
-			public const int abc_background_cache_hint_selector_material_dark = 2131099697;
+			// aapt resource value: 0x7f060033
+			public const int abc_background_cache_hint_selector_material_dark = 2131099699;
 			
-			// aapt resource value: 0x7f060032
-			public const int abc_background_cache_hint_selector_material_light = 2131099698;
+			// aapt resource value: 0x7f060034
+			public const int abc_background_cache_hint_selector_material_light = 2131099700;
 			
 			// aapt resource value: 0x7f060000
 			public const int abc_input_method_navigation_guard = 2131099648;
 			
-			// aapt resource value: 0x7f060033
-			public const int abc_primary_text_disable_only_material_dark = 2131099699;
-			
-			// aapt resource value: 0x7f060034
-			public const int abc_primary_text_disable_only_material_light = 2131099700;
-			
 			// aapt resource value: 0x7f060035
-			public const int abc_primary_text_material_dark = 2131099701;
+			public const int abc_primary_text_disable_only_material_dark = 2131099701;
 			
 			// aapt resource value: 0x7f060036
-			public const int abc_primary_text_material_light = 2131099702;
+			public const int abc_primary_text_disable_only_material_light = 2131099702;
 			
 			// aapt resource value: 0x7f060037
-			public const int abc_search_url_text = 2131099703;
+			public const int abc_primary_text_material_dark = 2131099703;
+			
+			// aapt resource value: 0x7f060038
+			public const int abc_primary_text_material_light = 2131099704;
+			
+			// aapt resource value: 0x7f060039
+			public const int abc_search_url_text = 2131099705;
 			
 			// aapt resource value: 0x7f060001
 			public const int abc_search_url_text_normal = 2131099649;
@@ -646,11 +658,11 @@ namespace Binding_AndroidTreeView_Sample
 			// aapt resource value: 0x7f060003
 			public const int abc_search_url_text_selected = 2131099651;
 			
-			// aapt resource value: 0x7f060038
-			public const int abc_secondary_text_material_dark = 2131099704;
+			// aapt resource value: 0x7f06003a
+			public const int abc_secondary_text_material_dark = 2131099706;
 			
-			// aapt resource value: 0x7f060039
-			public const int abc_secondary_text_material_light = 2131099705;
+			// aapt resource value: 0x7f06003b
+			public const int abc_secondary_text_material_light = 2131099707;
 			
 			// aapt resource value: 0x7f060004
 			public const int accent_material_dark = 2131099652;
@@ -787,6 +799,12 @@ namespace Binding_AndroidTreeView_Sample
 			// aapt resource value: 0x7f060030
 			public const int switch_thumb_normal_material_light = 2131099696;
 			
+			// aapt resource value: 0x7f060032
+			public const int text_gray = 2131099698;
+			
+			// aapt resource value: 0x7f060031
+			public const int text_lgray = 2131099697;
+			
 			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -910,6 +928,12 @@ namespace Binding_AndroidTreeView_Sample
 			
 			// aapt resource value: 0x7f070024
 			public const int abc_text_size_title_material_toolbar = 2131165220;
+			
+			// aapt resource value: 0x7f07002b
+			public const int activity_horizontal_margin = 2131165227;
+			
+			// aapt resource value: 0x7f07002c
+			public const int activity_vertical_margin = 2131165228;
 			
 			// aapt resource value: 0x7f070025
 			public const int dialog_fixed_height_major = 2131165221;
@@ -1114,29 +1138,29 @@ namespace Binding_AndroidTreeView_Sample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080031
-			public const int action_bar = 2131230769;
+			// aapt resource value: 0x7f080034
+			public const int action_bar = 2131230772;
 			
 			// aapt resource value: 0x7f080000
 			public const int action_bar_activity_content = 2131230720;
 			
-			// aapt resource value: 0x7f080030
-			public const int action_bar_container = 2131230768;
+			// aapt resource value: 0x7f080033
+			public const int action_bar_container = 2131230771;
 			
-			// aapt resource value: 0x7f08002c
-			public const int action_bar_root = 2131230764;
+			// aapt resource value: 0x7f08002f
+			public const int action_bar_root = 2131230767;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_spinner = 2131230721;
 			
-			// aapt resource value: 0x7f08001f
-			public const int action_bar_subtitle = 2131230751;
+			// aapt resource value: 0x7f080022
+			public const int action_bar_subtitle = 2131230754;
 			
-			// aapt resource value: 0x7f08001e
-			public const int action_bar_title = 2131230750;
+			// aapt resource value: 0x7f080021
+			public const int action_bar_title = 2131230753;
 			
-			// aapt resource value: 0x7f080032
-			public const int action_context_bar = 2131230770;
+			// aapt resource value: 0x7f080035
+			public const int action_context_bar = 2131230773;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_menu_divider = 2131230722;
@@ -1144,98 +1168,161 @@ namespace Binding_AndroidTreeView_Sample
 			// aapt resource value: 0x7f080003
 			public const int action_menu_presenter = 2131230723;
 			
-			// aapt resource value: 0x7f08002e
-			public const int action_mode_bar = 2131230766;
+			// aapt resource value: 0x7f080031
+			public const int action_mode_bar = 2131230769;
 			
-			// aapt resource value: 0x7f08002d
-			public const int action_mode_bar_stub = 2131230765;
+			// aapt resource value: 0x7f080030
+			public const int action_mode_bar_stub = 2131230768;
 			
-			// aapt resource value: 0x7f080020
-			public const int action_mode_close_button = 2131230752;
-			
-			// aapt resource value: 0x7f080021
-			public const int activity_chooser_view_content = 2131230753;
-			
-			// aapt resource value: 0x7f080016
-			public const int always = 2131230742;
-			
-			// aapt resource value: 0x7f080013
-			public const int beginning = 2131230739;
-			
-			// aapt resource value: 0x7f080029
-			public const int checkbox = 2131230761;
-			
-			// aapt resource value: 0x7f080017
-			public const int collapseActionView = 2131230743;
-			
-			// aapt resource value: 0x7f080042
-			public const int container = 2131230786;
-			
-			// aapt resource value: 0x7f08002f
-			public const int decor_content_parent = 2131230767;
+			// aapt resource value: 0x7f080023
+			public const int action_mode_close_button = 2131230755;
 			
 			// aapt resource value: 0x7f080024
-			public const int default_activity_button = 2131230756;
+			public const int activity_chooser_view_content = 2131230756;
 			
-			// aapt resource value: 0x7f08001b
-			public const int dialog = 2131230747;
+			// aapt resource value: 0x7f080019
+			public const int always = 2131230745;
 			
-			// aapt resource value: 0x7f08000c
-			public const int disableHome = 2131230732;
+			// aapt resource value: 0x7f08004b
+			public const int arrow_icon = 2131230795;
 			
-			// aapt resource value: 0x7f08001c
-			public const int dropdown = 2131230748;
+			// aapt resource value: 0x7f080016
+			public const int beginning = 2131230742;
 			
-			// aapt resource value: 0x7f080033
-			public const int edit_query = 2131230771;
+			// aapt resource value: 0x7f080056
+			public const int bot_line = 2131230806;
 			
-			// aapt resource value: 0x7f080014
-			public const int end = 2131230740;
+			// aapt resource value: 0x7f08004e
+			public const int btn_addFolder = 2131230798;
 			
-			// aapt resource value: 0x7f080022
-			public const int expand_activities_button = 2131230754;
+			// aapt resource value: 0x7f08004a
+			public const int btn_checkSelection = 2131230794;
 			
-			// aapt resource value: 0x7f080028
-			public const int expanded_menu = 2131230760;
+			// aapt resource value: 0x7f08004f
+			public const int btn_delete = 2131230799;
 			
-			// aapt resource value: 0x7f080040
-			public const int fragment = 2131230784;
+			// aapt resource value: 0x7f080049
+			public const int btn_deselectAll = 2131230793;
+			
+			// aapt resource value: 0x7f080048
+			public const int btn_selectAll = 2131230792;
+			
+			// aapt resource value: 0x7f080047
+			public const int btn_toggleSelection = 2131230791;
+			
+			// aapt resource value: 0x7f08004d
+			public const int buttonsContainer = 2131230797;
+			
+			// aapt resource value: 0x7f08002c
+			public const int checkbox = 2131230764;
+			
+			// aapt resource value: 0x7f08001a
+			public const int collapseActionView = 2131230746;
+			
+			// aapt resource value: 0x7f08005c
+			public const int collapseAll = 2131230812;
+			
+			// aapt resource value: 0x7f08005a
+			public const int connections = 2131230810;
+			
+			// aapt resource value: 0x7f080045
+			public const int container = 2131230789;
+			
+			// aapt resource value: 0x7f080032
+			public const int decor_content_parent = 2131230770;
+			
+			// aapt resource value: 0x7f080027
+			public const int default_activity_button = 2131230759;
+			
+			// aapt resource value: 0x7f08001e
+			public const int dialog = 2131230750;
+			
+			// aapt resource value: 0x7f08000f
+			public const int disableHome = 2131230735;
+			
+			// aapt resource value: 0x7f08001f
+			public const int dropdown = 2131230751;
+			
+			// aapt resource value: 0x7f080036
+			public const int edit_query = 2131230774;
+			
+			// aapt resource value: 0x7f080017
+			public const int end = 2131230743;
+			
+			// aapt resource value: 0x7f08005b
+			public const int expandAll = 2131230811;
+			
+			// aapt resource value: 0x7f080025
+			public const int expand_activities_button = 2131230757;
+			
+			// aapt resource value: 0x7f08002b
+			public const int expanded_menu = 2131230763;
+			
+			// aapt resource value: 0x7f080043
+			public const int fragment = 2131230787;
 			
 			// aapt resource value: 0x7f080004
 			public const int home = 2131230724;
 			
-			// aapt resource value: 0x7f08000d
-			public const int homeAsUp = 2131230733;
+			// aapt resource value: 0x7f080010
+			public const int homeAsUp = 2131230736;
+			
+			// aapt resource value: 0x7f080029
+			public const int icon = 2131230761;
+			
+			// aapt resource value: 0x7f08001b
+			public const int ifRoom = 2131230747;
 			
 			// aapt resource value: 0x7f080026
-			public const int icon = 2131230758;
+			public const int image = 2131230758;
+			
+			// aapt resource value: 0x7f080051
+			public const int info = 2131230801;
+			
+			// aapt resource value: 0x7f080050
+			public const int like = 2131230800;
+			
+			// aapt resource value: 0x7f08000c
+			public const int listMode = 2131230732;
+			
+			// aapt resource value: 0x7f080028
+			public const int list_item = 2131230760;
+			
+			// aapt resource value: 0x7f080042
+			public const int listview = 2131230786;
 			
 			// aapt resource value: 0x7f080018
-			public const int ifRoom = 2131230744;
+			public const int middle = 2131230744;
 			
-			// aapt resource value: 0x7f080023
-			public const int image = 2131230755;
+			// aapt resource value: 0x7f08001c
+			public const int never = 2131230748;
 			
 			// aapt resource value: 0x7f080009
-			public const int listMode = 2131230729;
-			
-			// aapt resource value: 0x7f080025
-			public const int list_item = 2131230757;
-			
-			// aapt resource value: 0x7f08003f
-			public const int listview = 2131230783;
-			
-			// aapt resource value: 0x7f080015
-			public const int middle = 2131230741;
-			
-			// aapt resource value: 0x7f080019
-			public const int never = 2131230745;
-			
-			// aapt resource value: 0x7f08000e
-			public const int none = 2131230734;
+			public const int node_header = 2131230729;
 			
 			// aapt resource value: 0x7f08000a
-			public const int normal = 2131230730;
+			public const int node_items = 2131230730;
+			
+			// aapt resource value: 0x7f080053
+			public const int node_selector = 2131230803;
+			
+			// aapt resource value: 0x7f08004c
+			public const int node_value = 2131230796;
+			
+			// aapt resource value: 0x7f080011
+			public const int none = 2131230737;
+			
+			// aapt resource value: 0x7f08000d
+			public const int normal = 2131230733;
+			
+			// aapt resource value: 0x7f080054
+			public const int picture_wrapper = 2131230804;
+			
+			// aapt resource value: 0x7f080052
+			public const int place_name = 2131230802;
+			
+			// aapt resource value: 0x7f080058
+			public const int profile = 2131230808;
 			
 			// aapt resource value: 0x7f080005
 			public const int progress_circular = 2131230725;
@@ -1243,77 +1330,92 @@ namespace Binding_AndroidTreeView_Sample
 			// aapt resource value: 0x7f080006
 			public const int progress_horizontal = 2131230726;
 			
-			// aapt resource value: 0x7f08002b
-			public const int radio = 2131230763;
-			
-			// aapt resource value: 0x7f080035
-			public const int search_badge = 2131230773;
-			
-			// aapt resource value: 0x7f080034
-			public const int search_bar = 2131230772;
-			
-			// aapt resource value: 0x7f080036
-			public const int search_button = 2131230774;
-			
-			// aapt resource value: 0x7f08003b
-			public const int search_close_btn = 2131230779;
-			
-			// aapt resource value: 0x7f080037
-			public const int search_edit_frame = 2131230775;
-			
-			// aapt resource value: 0x7f08003d
-			public const int search_go_btn = 2131230781;
+			// aapt resource value: 0x7f08002e
+			public const int radio = 2131230766;
 			
 			// aapt resource value: 0x7f080038
-			public const int search_mag_icon = 2131230776;
+			public const int search_badge = 2131230776;
+			
+			// aapt resource value: 0x7f080037
+			public const int search_bar = 2131230775;
 			
 			// aapt resource value: 0x7f080039
-			public const int search_plate = 2131230777;
-			
-			// aapt resource value: 0x7f08003a
-			public const int search_src_text = 2131230778;
+			public const int search_button = 2131230777;
 			
 			// aapt resource value: 0x7f08003e
-			public const int search_voice_btn = 2131230782;
+			public const int search_close_btn = 2131230782;
 			
-			// aapt resource value: 0x7f08002a
-			public const int shortcut = 2131230762;
+			// aapt resource value: 0x7f08003a
+			public const int search_edit_frame = 2131230778;
 			
-			// aapt resource value: 0x7f08000f
-			public const int showCustom = 2131230735;
+			// aapt resource value: 0x7f080040
+			public const int search_go_btn = 2131230784;
 			
-			// aapt resource value: 0x7f080010
-			public const int showHome = 2131230736;
+			// aapt resource value: 0x7f08003b
+			public const int search_mag_icon = 2131230779;
 			
-			// aapt resource value: 0x7f080011
-			public const int showTitle = 2131230737;
+			// aapt resource value: 0x7f08003c
+			public const int search_plate = 2131230780;
+			
+			// aapt resource value: 0x7f08003d
+			public const int search_src_text = 2131230781;
+			
+			// aapt resource value: 0x7f080041
+			public const int search_voice_btn = 2131230785;
+			
+			// aapt resource value: 0x7f08002d
+			public const int shortcut = 2131230765;
+			
+			// aapt resource value: 0x7f080012
+			public const int showCustom = 2131230738;
+			
+			// aapt resource value: 0x7f080013
+			public const int showHome = 2131230739;
+			
+			// aapt resource value: 0x7f080014
+			public const int showTitle = 2131230740;
+			
+			// aapt resource value: 0x7f080057
+			public const int size = 2131230807;
 			
 			// aapt resource value: 0x7f080007
 			public const int split_action_bar = 2131230727;
 			
-			// aapt resource value: 0x7f080041
-			public const int status_bar = 2131230785;
+			// aapt resource value: 0x7f080046
+			public const int status = 2131230790;
 			
-			// aapt resource value: 0x7f08003c
-			public const int submit_area = 2131230780;
+			// aapt resource value: 0x7f080044
+			public const int status_bar = 2131230788;
+			
+			// aapt resource value: 0x7f08003f
+			public const int submit_area = 2131230783;
+			
+			// aapt resource value: 0x7f08000e
+			public const int tabMode = 2131230734;
+			
+			// aapt resource value: 0x7f08002a
+			public const int title = 2131230762;
+			
+			// aapt resource value: 0x7f080055
+			public const int top_line = 2131230805;
 			
 			// aapt resource value: 0x7f08000b
-			public const int tabMode = 2131230731;
-			
-			// aapt resource value: 0x7f080027
-			public const int title = 2131230759;
+			public const int tree_items = 2131230731;
 			
 			// aapt resource value: 0x7f080008
 			public const int up = 2131230728;
 			
-			// aapt resource value: 0x7f080012
-			public const int useLogo = 2131230738;
+			// aapt resource value: 0x7f080015
+			public const int useLogo = 2131230741;
 			
-			// aapt resource value: 0x7f08001a
-			public const int withText = 2131230746;
+			// aapt resource value: 0x7f080059
+			public const int username = 2131230809;
 			
 			// aapt resource value: 0x7f08001d
-			public const int wrap_content = 2131230749;
+			public const int withText = 2131230749;
+			
+			// aapt resource value: 0x7f080020
+			public const int wrap_content = 2131230752;
 			
 			static Id()
 			{
@@ -1423,10 +1525,34 @@ namespace Binding_AndroidTreeView_Sample
 			public const int fragment_default = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int Main = 2130903066;
+			public const int fragment_selectable_nodes = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int support_simple_spinner_dropdown_item = 2130903067;
+			public const int layout_header_node = 2130903067;
+			
+			// aapt resource value: 0x7f03001c
+			public const int layout_icon_node = 2130903068;
+			
+			// aapt resource value: 0x7f03001d
+			public const int layout_place_node = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int layout_profile_node = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int layout_selectable_header = 2130903071;
+			
+			// aapt resource value: 0x7f030020
+			public const int layout_selectable_item = 2130903072;
+			
+			// aapt resource value: 0x7f030021
+			public const int layout_social_node = 2130903073;
+			
+			// aapt resource value: 0x7f030022
+			public const int Main = 2130903074;
+			
+			// aapt resource value: 0x7f030023
+			public const int support_simple_spinner_dropdown_item = 2130903075;
 			
 			static Layout()
 			{
@@ -1434,6 +1560,22 @@ namespace Binding_AndroidTreeView_Sample
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0c0000
+			public const int menu = 2131492864;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -2804,6 +2946,9 @@ namespace Binding_AndroidTreeView_Sample
 		public partial class Style
 		{
 			
+			// aapt resource value: 0x7f0b00ec
+			public const int AppTheme = 2131427564;
+			
 			// aapt resource value: 0x7f0b0000
 			public const int Base_TextAppearance_AppCompat = 2131427328;
 			
@@ -3355,6 +3500,15 @@ namespace Binding_AndroidTreeView_Sample
 			
 			// aapt resource value: 0x7f0b00ab
 			public const int ThemeOverlay_AppCompat_Light = 2131427499;
+			
+			// aapt resource value: 0x7f0b00eb
+			public const int TreeNodeStyle = 2131427563;
+			
+			// aapt resource value: 0x7f0b00ed
+			public const int TreeNodeStyleCustom = 2131427565;
+			
+			// aapt resource value: 0x7f0b00ee
+			public const int TreeNodeStyleDivided = 2131427566;
 			
 			// aapt resource value: 0x7f0b00ac
 			public const int Widget_AppCompat_ActionBar = 2131427500;
@@ -3933,6 +4087,24 @@ namespace Binding_AndroidTreeView_Sample
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] PrintView = new int[] {
+					2130772137,
+					2130772138,
+					2130772139,
+					2130772140};
+			
+			// aapt resource value: 1
+			public const int PrintView_iconColor = 1;
+			
+			// aapt resource value: 3
+			public const int PrintView_iconFont = 3;
+			
+			// aapt resource value: 2
+			public const int PrintView_iconSize = 2;
+			
+			// aapt resource value: 0
+			public const int PrintView_iconText = 0;
 			
 			public static int[] SearchView = new int[] {
 					16842970,

@@ -59,11 +59,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\JavaObjectWrapper.cs" />
+    <Compile Include="Extensions\ObjectTypeHelper.cs" />
+    <Compile Include="Fragments\CustomViewHolderFragment.cs" />
+    <Compile Include="Fragments\FolderStructureFragment.cs" />
+    <Compile Include="Fragments\SelectableTreeFragment.cs" />
+    <Compile Include="Fragments\TwoDScrollingArrowExpandFragment.cs" />
+    <Compile Include="Fragments\TwoDScrollingFragment.cs" />
+    <Compile Include="Holders\ArrowExpandSelectableHeaderHolder.cs" />
+    <Compile Include="Holders\HeaderHolder.cs" />
+    <Compile Include="Holders\IconTreeItemHolder.cs" />
+    <Compile Include="Holders\PlaceHolderHolder.cs" />
+    <Compile Include="Holders\ProfileHolder.cs" />
+    <Compile Include="Holders\SelectableHeaderHolder.cs" />
+    <Compile Include="Holders\SelectableItemHolder.cs" />
+    <Compile Include="Holders\SocialViewHolder.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleFragmentActivity.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\fonts\material-icon-font.ttf" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
@@ -132,16 +149,26 @@
     <AndroidResource Include="Resources\layout\fragment_selectable_nodes.axml" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="Resources\menu\menu.xml" />
+    <AndroidResource Include="Resources\menu\menu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\Binding_AndroidTreeView.csproj">
+      <Project>{5e32f54f-26a5-406e-be8a-b9916ec9c3a1}</Project>
+      <Name>Binding_AndroidTreeView</Name>
+    </ProjectReference>
+    <ProjectReference Include="AndroidBindings\Binding_Johnkil_Print\Binding_Johnkil_Print.csproj">
+      <Project>{E84BFD5A-F30F-43B4-9223-BA4C469B84E4}</Project>
+      <Name>Binding_Johnkil_Print</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

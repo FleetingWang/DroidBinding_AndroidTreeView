@@ -1,0 +1,7 @@
+Binding for:
+com.github.johnkil.print:print:1.2.2
+
+Dependencies:
+
+print-1.2.2.aar,    Path=C:\Users\wtffl\.gradle\caches\modules-2\files-2.1\com.github.johnkil.print\print\1.2.2\6adb25def797ee39b07d52bf4e5ecb22579beb1f\print-1.2.2.aar
+	support-annotations-21.0.3.jar,    Path=D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar
