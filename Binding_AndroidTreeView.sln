@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_AndroidTreeView", "Binding_AndroidTreeView.csproj", "{5E32F54F-26A5-406E-BE8A-B9916EC9C3A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_AndroidTreeView", "source\Binding_AndroidTreeView.csproj", "{5E32F54F-26A5-406E-BE8A-B9916EC9C3A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_AndroidTreeView_Sample", "samples\Binding_AndroidTreeView_Sample\Binding_AndroidTreeView_Sample.csproj", "{C4879CCA-CB2B-4566-9292-1E460C340CFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{5E32F54F-26A5-406E-BE8A-B9916EC9C3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E32F54F-26A5-406E-BE8A-B9916EC9C3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E32F54F-26A5-406E-BE8A-B9916EC9C3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4879CCA-CB2B-4566-9292-1E460C340CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4879CCA-CB2B-4566-9292-1E460C340CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4879CCA-CB2B-4566-9292-1E460C340CFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4879CCA-CB2B-4566-9292-1E460C340CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4879CCA-CB2B-4566-9292-1E460C340CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4879CCA-CB2B-4566-9292-1E460C340CFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
