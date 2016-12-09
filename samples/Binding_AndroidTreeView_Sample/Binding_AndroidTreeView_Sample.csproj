@@ -128,13 +128,19 @@
     <AndroidResource Include="Resources\layout\layout_profile_node.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\layout_selectable_header.axml" />
+    <AndroidResource Include="Resources\layout\layout_selectable_header.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\layout_selectable_item.axml" />
+    <AndroidResource Include="Resources\layout\layout_selectable_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\layout_social_node.axml" />
+    <AndroidResource Include="Resources\layout\layout_social_node.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_main.axml" />
@@ -146,7 +152,9 @@
     <AndroidResource Include="Resources\layout\fragment_default.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\fragment_selectable_nodes.axml" />
+    <AndroidResource Include="Resources\layout\fragment_selectable_nodes.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\colors.xml" />

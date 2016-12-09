@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace Binding_AndroidTreeView_Sample
 {
-    [Activity(Label = "SingleFragmentActivity", Theme = "@style/AppTheme")]
+    [Activity(Label = "@string/app_name")]
     public class SingleFragmentActivity : ActionBarActivity
     {
         public const String FRAGMENT_PARAM = "fragment";
@@ -30,7 +30,6 @@ namespace Binding_AndroidTreeView_Sample
                 f.Arguments = Intent.Extras;
                 FragmentManager.BeginTransaction().Replace(Resource.Id.fragment, f, fragmentName).Commit();
             }
-            // Create your application here
         }
     }
 }

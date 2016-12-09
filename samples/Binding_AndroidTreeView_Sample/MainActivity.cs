@@ -12,11 +12,7 @@ using Binding_AndroidTreeView_Sample.Fragments;
 
 namespace Binding_AndroidTreeView_Sample
 {
-    [Activity(
-        Label = "AndroidTreeView", 
-        MainLauncher = true,
-        Theme = "@style/AppTheme",
-        Icon = "@drawable/ic_launcher")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/ic_launcher")]
     public class MainActivity : ActionBarActivity
     {
         protected override void OnCreate(Bundle bundle)
