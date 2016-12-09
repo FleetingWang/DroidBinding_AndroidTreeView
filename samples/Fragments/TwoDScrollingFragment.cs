@@ -10,17 +10,18 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using AndroidTreeView.Model;
-using static Binding_AndroidTreeView_Sample.Holders.IconTreeItemHolder;
-using Binding_AndroidTreeView_Sample.Holders;
+using DroidTreeView.View;
+using DroidTreeView.Model;
+using static DroidTreeView_Sample.Holders.IconTreeItemHolder;
+using DroidTreeView_Sample.Holders;
 
-namespace Binding_AndroidTreeView_Sample.Fragments
+namespace DroidTreeView_Sample.Fragments
 {
-    [Register("binding_androidtreeview_sample.fragments.TwoDScrollingFragment")]
+    [Register("droidtreeview_sample.fragments.TwoDScrollingFragment")]
     public class TwoDScrollingFragment : Fragment
     {
         private const string NAME = "Very long name for folder";
-        private AndroidTreeView.View.AndroidTreeView tView;
+        private AndroidTreeView tView;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -38,7 +39,7 @@ namespace Binding_AndroidTreeView_Sample.Fragments
 
             root.AddChildren(s1, s2);
 
-            tView = new AndroidTreeView.View.AndroidTreeView(Activity, root);
+            tView = new AndroidTreeView(Activity, root);
             tView.SetDefaultAnimation(true);
             tView.SetUse2dScroll(true);
             tView.SetDefaultContainerStyle(Resource.Style.TreeNodeStyleCustom);

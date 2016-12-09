@@ -9,22 +9,23 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using AndroidTreeView.Model;
-using Java.Lang;
-using static AndroidTreeView.Model.TreeNode;
+using static DroidTreeView.Model.TreeNode;
 using Com.Github.Johnkil.Print;
-using static Binding_AndroidTreeView_Sample.Holders.IconTreeItemHolder;
+using DroidTreeView.Model;
+using Java.Lang;
+using static DroidTreeView_Sample.Holders.IconTreeItemHolder;
 
-namespace Binding_AndroidTreeView_Sample.Holders
+namespace DroidTreeView_Sample.Holders
 {
-    public class ArrowExpandSelectableHeaderHolder : BaseNodeViewHolder
+    public class SelectableHeaderHolder : BaseNodeViewHolder
     {
         private TextView tvValue;
         private PrintView arrowView;
         private CheckBox nodeSelector;
-        public ArrowExpandSelectableHeaderHolder(Context context):base(context)
+        public SelectableHeaderHolder(Context context):base(context)
         {
         }
+
         public override View CreateNodeView(TreeNode node, Java.Lang.Object value)
         {
             var inflater = Application.Context.GetSystemService(Context.LayoutInflaterService) as LayoutInflater;
@@ -39,19 +40,15 @@ namespace Binding_AndroidTreeView_Sample.Holders
             iconView.SetIconText(iconTreeItem.Icon);
 
             arrowView = view.FindViewById<PrintView>(Resource.Id.arrow_icon);
-            arrowView.SetPadding(20, 10, 10, 10);
             if (node.IsLeaf)
             {
                 arrowView.Visibility = ViewStates.Gone;
             }
-            arrowView.Click += (sender, e) => {
-                TView.ToggleNode(node);
-            };
 
             nodeSelector = view.FindViewById<CheckBox>(Resource.Id.node_selector);
             nodeSelector.CheckedChange += (sender, e) => {
                 node.Selected = e.IsChecked;
-                foreach (var childNode in node.Children)
+                foreach(var childNode in node.Children)
                 {
                     TreeView.SelectNode(childNode, e.IsChecked);
                 }

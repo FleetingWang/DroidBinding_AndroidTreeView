@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Binding_AndroidTreeView_Sample.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("DroidTreeView_Sample.Resource", IsApplication=true)]
 
-namespace Binding_AndroidTreeView_Sample
+namespace DroidTreeView_Sample
 {
 	
 	

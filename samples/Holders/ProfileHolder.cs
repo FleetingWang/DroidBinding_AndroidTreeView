@@ -9,13 +9,13 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using AndroidTreeView.Model;
+using DroidTreeView.Model;
 using Java.Lang;
-using static AndroidTreeView.Model.TreeNode;
-using static Binding_AndroidTreeView_Sample.Holders.IconTreeItemHolder;
+using static DroidTreeView.Model.TreeNode;
+using static DroidTreeView_Sample.Holders.IconTreeItemHolder;
 using Com.Github.Johnkil.Print;
 
-namespace Binding_AndroidTreeView_Sample.Holders
+namespace DroidTreeView_Sample.Holders
 {
     public class ProfileHolder : BaseNodeViewHolder
     {

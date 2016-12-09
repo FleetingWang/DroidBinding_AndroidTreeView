@@ -9,12 +9,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using static AndroidTreeView.Model.TreeNode;
+using static DroidTreeView.Model.TreeNode;
 using Com.Github.Johnkil.Print;
-using AndroidTreeView.Model;
-using static Binding_AndroidTreeView_Sample.Holders.IconTreeItemHolder;
+using DroidTreeView.Model;
+using static DroidTreeView_Sample.Holders.IconTreeItemHolder;
 
-namespace Binding_AndroidTreeView_Sample.Holders
+namespace DroidTreeView_Sample.Holders
 {
     public class HeaderHolder : BaseNodeViewHolder
     {

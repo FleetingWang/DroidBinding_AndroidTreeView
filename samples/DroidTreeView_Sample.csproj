@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Binding_AndroidTreeView_Sample</RootNamespace>
-    <AssemblyName>Binding_AndroidTreeView_Sample</AssemblyName>
+    <RootNamespace>DroidTreeView_Sample</RootNamespace>
+    <AssemblyName>DroidTreeView_Sample</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -32,7 +32,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,7 +40,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <Debugger>Xamarin</Debugger>
+    <AotAssemblies>False</AotAssemblies>
+    <EnableLLVM>False</EnableLLVM>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <EnableProguard>False</EnableProguard>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -59,8 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\JavaObjectWrapper.cs" />
-    <Compile Include="Extensions\ObjectTypeHelper.cs" />
     <Compile Include="Fragments\CustomViewHolderFragment.cs" />
     <Compile Include="Fragments\FolderStructureFragment.cs" />
     <Compile Include="Fragments\SelectableTreeFragment.cs" />
@@ -169,12 +175,12 @@
     <AndroidResource Include="Resources\menu\menu.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\source\Binding_AndroidTreeView.csproj">
+    <ProjectReference Include="..\source\Binding_AndroidTreeView.csproj">
       <Project>{5e32f54f-26a5-406e-be8a-b9916ec9c3a1}</Project>
       <Name>Binding_AndroidTreeView</Name>
     </ProjectReference>
-    <ProjectReference Include="AndroidBindings\Binding_Johnkil_Print\Binding_Johnkil_Print.csproj">
-      <Project>{E84BFD5A-F30F-43B4-9223-BA4C469B84E4}</Project>
+    <ProjectReference Include="Binding_Johnkil_Print\Binding_Johnkil_Print.csproj">
+      <Project>{e84bfd5a-f30f-43b4-9223-ba4c469b84e4}</Project>
       <Name>Binding_Johnkil_Print</Name>
     </ProjectReference>
   </ItemGroup>

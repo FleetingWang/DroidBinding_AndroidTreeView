@@ -10,16 +10,17 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using AndroidTreeView.Model;
-using Binding_AndroidTreeView_Sample.Holders;
-using static Binding_AndroidTreeView_Sample.Holders.IconTreeItemHolder;
+using DroidTreeView.View;
+using DroidTreeView.Model;
+using DroidTreeView_Sample.Holders;
+using static DroidTreeView_Sample.Holders.IconTreeItemHolder;
 
-namespace Binding_AndroidTreeView_Sample.Fragments
+namespace DroidTreeView_Sample.Fragments
 {
-    [Register("binding_androidtreeview_sample.fragments.CustomViewHolderFragment")]
+    [Register("droidtreeview_sample.fragments.CustomViewHolderFragment")]
     public class CustomViewHolderFragment : Fragment
     {
-        private AndroidTreeView.View.AndroidTreeView tView;
+        private AndroidTreeView tView;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -41,7 +42,7 @@ namespace Binding_AndroidTreeView_Sample.Fragments
             addProfileData(barry);
             root.AddChildren(myProfile, bruce, barry, clark);
 
-            tView = new AndroidTreeView.View.AndroidTreeView(Activity, root);
+            tView = new AndroidTreeView(Activity, root);
             tView.SetDefaultAnimation(true);
             tView.SetDefaultContainerStyle(Resource.Style.TreeNodeStyleDivided, true);
             containerView.AddView(tView.View);

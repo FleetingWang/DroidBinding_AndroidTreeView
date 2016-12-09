@@ -1,9 +1,9 @@
 <metadata>
   <!-- namespaces -->
-  <attr path="/api/package[@name='com.unnamed.b.atv']" name="managedName">AndroidTreeView</attr>
-  <attr path="/api/package[@name='com.unnamed.b.atv.holder']" name="managedName">AndroidTreeView.Holder</attr>
-  <attr path="/api/package[@name='com.unnamed.b.atv.model']" name="managedName">AndroidTreeView.Model</attr>
-  <attr path="/api/package[@name='com.unnamed.b.atv.view']" name="managedName">AndroidTreeView.View</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv']" name="managedName">DroidTreeView</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.holder']" name="managedName">DroidTreeView.Holder</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.model']" name="managedName">DroidTreeView.Model</attr>
+  <attr path="/api/package[@name='com.unnamed.b.atv.view']" name="managedName">DroidTreeView.View</attr>
 
   <!-- constructor params -->
   <attr path="/api/package[@name='com.unnamed.b.atv.holder']/class[@name='SimpleViewHolder']/constructor[@name='SimpleViewHolder' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[1]" name="managedName">context</attr>

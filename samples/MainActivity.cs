@@ -8,9 +8,9 @@ using Android.OS;
 using System.Collections.Generic;
 using System.Linq;
 using Android.Support.V7.App;
-using Binding_AndroidTreeView_Sample.Fragments;
+using DroidTreeView_Sample.Fragments;
 
-namespace Binding_AndroidTreeView_Sample
+namespace DroidTreeView_Sample
 {
     [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/ic_launcher")]
     public class MainActivity : ActionBarActivity

@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V7.App;
 
-namespace Binding_AndroidTreeView_Sample
+namespace DroidTreeView_Sample
 {
     [Activity(Label = "@string/app_name")]
     public class SingleFragmentActivity : ActionBarActivity

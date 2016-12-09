@@ -10,18 +10,19 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using AndroidTreeView.Model;
-using static Binding_AndroidTreeView_Sample.Holders.IconTreeItemHolder;
-using Binding_AndroidTreeView_Sample.Holders;
+using DroidTreeView.View;
+using DroidTreeView.Model;
+using static DroidTreeView_Sample.Holders.IconTreeItemHolder;
+using DroidTreeView_Sample.Holders;
 using Java.Lang;
 
-namespace Binding_AndroidTreeView_Sample.Fragments
+namespace DroidTreeView_Sample.Fragments
 {
-    [Register("binding_androidtreeview_sample.fragments.FolderStructureFragment")]
+    [Register("droidtreeview_sample.fragments.FolderStructureFragment")]
     public class FolderStructureFragment : Fragment
     {
         private TextView statusBar;
-        private AndroidTreeView.View.AndroidTreeView tView;
+        private AndroidTreeView tView;
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -58,7 +59,7 @@ namespace Binding_AndroidTreeView_Sample.Fragments
 
             root.AddChildren(computerRoot);
 
-            tView = new AndroidTreeView.View.AndroidTreeView(Activity, root);
+            tView = new AndroidTreeView(Activity, root);
             tView.SetDefaultAnimation(true);
             tView.SetDefaultContainerStyle(Resource.Style.TreeNodeStyleCustom);
             tView.SetDefaultViewHolder(Java.Lang.Class.FromType(typeof(IconTreeItemHolder)));
