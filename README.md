@@ -29,13 +29,12 @@ Tree view implementation for android
 ### Known Limitations
 + For Android 4.0 (+/- nearest version) if you have too deep view hierarchy and with tree its easily possible, your app may crash
 
-</br>
+<img width='300' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/2d7277.jpg' />
+<img width='300' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/302d7277.jpg' />
+<img width='300' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/6c3d31.png' />
+<img width='300' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/634545.png' /> 
 
-<img width='300' hspace='20' align='left' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/2d7277.jpg' /> <img width='300' hspace='20' align='left' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/302d7277.jpg' />  <img width='300' hspace='20' align='left' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/6c3d31.png' /><img width='300' hspace='20' align='left' src='https://github.com/wtffly/DroidBinding_AndroidTreeView/blob/master/screenshots/634545.png' /> 
-
-</br>
-
- - ### Integration
+### Integration
 
 **1)** Add library as a dependency to your project 
 
